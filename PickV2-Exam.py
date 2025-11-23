@@ -17,9 +17,9 @@ from ultralytics import YOLO
 # ----------------------------------------------------------------------
 # --------------------------- CONFIGURATION ---------------------------
 # ----------------------------------------------------------------------
-MODEL_PATH = "Gayan_set2.pt"          # <--- YOUR CUSTOM MODEL
-CONF_THRESHOLD = 0.4                 # same as test.py
-DETECTION_RESIZE = 640              # YOLO input size (square)
+MODEL_PATH = "YOLO11n-segmentation.pt"        
+CONF_THRESHOLD = 0.4                 
+DETECTION_RESIZE = 640             
 DETECT_EVERY_NFRAMES = 1
 REMOVE_LOST = 3
 MARKER_SIZE_MM = 100.0
